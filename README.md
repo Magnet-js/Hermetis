@@ -1,36 +1,56 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
+
+
+<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/username/Hermetis">
+  <a href="https://github.com/Magnet-js/Hermetis">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Hermetis</h3>
 
   <p align="center">
-    Eine Open-Source Status-Page, die mit Echtzeit-Daten arbeitet und API-Integration bietet.
+    An open source status page that works with real-time data and offers API integration.
     <br />
-    <a href="https://hermetis.io"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Magnet-js/Hermetis"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/username/Hermetis">View Demo</a>
+    <a href="https://github.com/Magnet-js/Hermetis">View Demo</a>
     ·
-    <a href="https://github.com/username/Hermetis/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
+    <a href="https://github.com/Magnet-js/Hermetis/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/username/Hermetis/issues/new?labels=enhancement&template=feature-request.md">Request Feature</a>
+    <a href="https://github.com/Magnet-js/Hermetis/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
----
 
+
+<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -56,80 +76,141 @@
   </ol>
 </details>
 
+
+
+<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Hermetis Screenshot][product-screenshot]](https://hermetis.io)
 
-**Hermetis** ist eine Open-Source Status-Page, die für die Überwachung von Systemen in Echtzeit entwickelt wurde. Das Projekt ist in **Go** und **React (TypeScript)** geschrieben und verwendet eine **Postgres-Datenbank**, die mit Docker bereitgestellt wird. Bisher ist Hermetis in der Lage, Daten von der Proxmox Node API zu integrieren, mit weiteren Integrationen in Planung.
+**Hermetis** is an open-source status page designed for real-time system monitoring. The project is written in **Go** and **React (TypeScript)** and uses a **Postgres database** provided with Docker. So far, Hermetis is able to integrate data from the Proxmox Node API, with further integrations planned.
+**Key features:**
+* Real-time monitoring and status display
+* API support for various platforms
+* Docker-based deployment of PostgreSQL database for easy integration and scalability
+* Extensible and customisable through future API integrations
 
-**Hauptmerkmale:**
-* Echtzeitüberwachung und Statusanzeige
-* API-Unterstützung für verschiedene Plattformen
-* Docker-basierte Bereitstellung der PostgreSQL-Datenbank für einfache Integration und Skalierbarkeit
-* Erweiterbar und anpassbar durch künftige API-Integrationen
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
 ### Built With
 
-* [![Go][Go-url]][Go-url]
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* [![Go][Go]][Go-url]
 * [![React][React.js]][React-url]
 * [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
 * [![Docker][Docker]][Docker-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-Hier ist eine kurze Anleitung, um das Projekt lokal einzurichten.
+Here is a short guide to setting up the project locally.
 
 ### Prerequisites
 
-- Docker und Docker Compose installiert
-- Git installiert
+- Docker and Docker Compose installed 
+- Git installed
 
 ### Installation
 
-1. Klonen Sie das Repository:
-   ```bash
-   git clone https://github.com/username/Hermetis.git
-   cd Hermetis
-   ```
-
-2. Starten Sie die Docker-Container:
-   ```bash
-   docker-compose up -d
-   ```
-
-3. Besuchen Sie `http://localhost:3000`, um die Statusseite zu öffnen.
+Comming Soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+<!-- USAGE EXAMPLES -->
 ## Usage
 
-Die API von Hermetis erlaubt das Abrufen von Systemstatusinformationen und das Hinzufügen von benutzerdefinierten Integrationen.
-
-Für eine vollständige Dokumentation besuchen Sie bitte [die Dokumentationsseite](https://hermetis.io/docs) auf unserer Website. *(Dokumentation in Entwicklung)*
+<!-- The Hermetis API allows you to retrieve system status information and add custom integrations. For complete documentation, please visit [the documentation page](https://hermetis.io/docs) on our website. *(Documentation under development)* -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+<!-- ROADMAP -->
 ## Roadmap
 
-- [x] Proxmox Node API Integration
-- [ ] Unterstützung für weitere Integrationen (z.B. AWS, Kubernetes)
-- [ ] Weitere Funktionen auf der Website (z.B. Live-Dashboard, API-Dokumentation)
-- [ ] Verbesserte Skalierbarkeit und Datenbankunterstützung
+- [ ] Proxmox Node API integration 
+- [ ] Support for further integrations (e.g. AWS, Kubernetes) 
+- [ ] Further features on the website (e.g. live dashboard, API documentation) 
+- [ ] Improved scalability and database support 
 
-See the [open issues](https://github.com/username/Hermetis/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Magnet-js/Hermetis/issues) for a full list of proposed features (and known issues). 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+<!-- CONTRIBUTING -->
 ## Contributing
 
-Beiträge sind willkommen! Wenn Sie Ideen zur Verbesserung haben, [öffnen Sie bitte ein Issue](https://github.com/username/Hermetis/issues) oder reichen Sie einen Pull-Request ein.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Schritte zum Mitwirken:
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+### Top contributors:
+
+<a href="https://github.com/Magnet-js/Hermetis/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Magnet-js/Hermetis" alt="contrib.rocks image" />
+</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+<!--Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
+
+Comming Soon...
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Magnet-js/Hermetis.svg?style=for-the-badge
+[contributors-url]: https://github.com/Magnet-js/Hermetis/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Magnet-js/Hermetis.svg?style=for-the-badge
+[forks-url]: https://github.com/Magnet-js/Hermetis/network/members
+[stars-shield]: https://img.shields.io/github/stars/Magnet-js/Hermetis.svg?style=for-the-badge
+[stars-url]: https://github.com/Magnet-js/Hermetis/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Magnet-js/Hermetis.svg?style=for-the-badge
+[issues-url]: https://github.com/Magnet-js/Hermetis/issues
+[product-screenshot]: images/screenshot.png
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Go]: https://img.shields.io/badge/Go-00ADD8?logo=Go&logoColor=white&style=for-the-badge
+[Go-url]: https://go.dev
+[PostgreSQL]: https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white
+[PostgreSQL-url]: https://www.postgresql.org/
+[Docker]: https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]: https://www.postgresql.org/
